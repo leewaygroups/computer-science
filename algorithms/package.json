@@ -8,6 +8,13 @@
     },
     "author": "Prince O. Onyenike",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leewaygroups/computer-science.git"
+    },
+    "bugs": {
+        "url": "https://github.com/leewaygroups/computer-science/issues"
+    },
     "devDependencies": {
         "chai": "^3.5.0",
         "mocha": "^2.4.5"
