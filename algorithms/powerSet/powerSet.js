@@ -20,9 +20,9 @@ function powerSet(arr) {
         }
 
         var temp = [];
-        for (var i = 0; i < binRep.length; i++) {
-            if (binRep[i] === '1') {
-                temp.push(arr[i]);
+        for (var J = 0; J < binRep.length; J++) {
+            if (binRep[J] === '1') {
+                temp.push(arr[J]);
             }
         }
 
@@ -31,6 +31,5 @@ function powerSet(arr) {
 
     return result;
 }
-
 
 module.exports = powerSet;
