@@ -6,9 +6,14 @@
  * 5. Iterate over each binary string, say 001. Ignore 0, but for 1's push element in arr with same index as 1 into a subset.
  * 6. This subset is a single combination of possible combinations. 
  */
-
 //implementation in JavaScript.
 
+/** 
+ * Running time for this solution ~ O(2^n).
+ * where n = arr.length
+ * This is only more efficient that powerSet2 for n < 5. However as n grows larger.
+ * Hence for large set, this will be a less performing algorithm.
+ */ 
 function powerSet(arr) {
     var result = [];
     var possibles = Math.pow(2, arr.length);
